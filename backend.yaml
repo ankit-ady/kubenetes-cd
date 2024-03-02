@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 348240157201.dkr.ecr.us-east-1.amazonaws.com/backend:latest
+        image: 654654222795.dkr.ecr.us-west-1.amazonaws.com/jenkins_repository:latest
         ports:
         - containerPort: 8080
 
