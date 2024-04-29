@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: proxy
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: tomcat
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: public.ecr.aws/s8c2q7c6/tomcatstudentui:latest
+        image: pritamkhergade/tomcat:student-ui
         ports:
         - containerPort: 8080
 
