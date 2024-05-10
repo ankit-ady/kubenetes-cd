@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: pritamkhergade/tomcat:student-ui
+        image: backend-env-master-8-2024-05-10-110327IST
         ports:
         - containerPort: 8080
 
