@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 443684365066.dkr.ecr.us-east-1.amazonaws.com/docker-repo-student:backend-env-master-8-2024-05-10-110327IST
+        image: 443684365066.dkr.ecr.us-east-1.amazonaws.com/docker-repo-student:latest
         ports:
         - containerPort: 8080
 
