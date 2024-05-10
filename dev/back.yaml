@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: proxy
 spec:
-  replicas: 0
+  replicas: 3
   selector:
     matchLabels:
       app: tomcat
