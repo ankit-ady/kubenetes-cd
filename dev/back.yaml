@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 443684365066.dkr.ecr.us-east-1.amazonaws.com/docker-repo-student:latest
+        image: pritamkhergade/dell:student-ui-tomcat
         ports:
         - containerPort: 8080
 
