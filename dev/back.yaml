@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: pritamkhergade/dell:student-ui-tomcat
+        image: 637423326590.dkr.ecr.us-east-2.amazonaws.com/backend-app:latest
         ports:
         - containerPort: 8080
 
