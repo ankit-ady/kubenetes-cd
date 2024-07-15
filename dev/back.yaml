@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 281852974741.dkr.ecr.us-west-2.amazonaws.com/student-ui-tomcat:20240714121207IST
+        image: 851725418448.dkr.ecr.us-east-1.amazonaws.com/student-tomcat:20240715224052IST
         ports:
         - containerPort: 8080
 
